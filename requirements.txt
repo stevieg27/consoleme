@@ -428,7 +428,7 @@ ujson==4.0.2
     # via -r requirements.in
 uritemplate==3.0.1
     # via google-api-python-client
-urllib3==1.26.4
+urllib3==1.26.5
     # via
     #   botocore
     #   elasticsearch
@@ -457,3 +457,4 @@ yarl==1.6.3
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+pydantic>=1.8.2 # not directly required, pinned by Snyk to avoid a vulnerability
