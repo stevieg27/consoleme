@@ -42,11 +42,11 @@ mkdocs-material==7.0.6
     # via
     #   -r requirements-docs.in
     #   mkdocs-material-extensions
-mkdocs==1.1.2
+mkdocs==1.2.3
     # via
     #   -r requirements-docs.in
     #   mkdocs-material
-nltk==3.5
+nltk==3.6.4
     # via lunr
 pygments==2.8.1
     # via
