@@ -424,7 +424,7 @@ typing-extensions==3.7.4.3
     #   aiohttp
     #   black
     #   pydantic
-ujson==4.0.2
+ujson==5.4.0
     # via -r requirements.in
 uritemplate==3.0.1
     # via google-api-python-client
