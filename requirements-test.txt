@@ -586,7 +586,7 @@ prompt-toolkit==3.0.17
     #   -r requirements.txt
     #   click-repl
     #   ipython
-protobuf==3.15.6
+protobuf==3.18.3
     # via
     #   -c requirements.txt
     #   -r requirements.txt
