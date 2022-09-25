@@ -17,7 +17,7 @@ jinja2==2.11.3
     #   -c requirements-test.txt
     #   -c requirements.txt
     #   mkdocs
-joblib==1.0.1
+joblib==1.2.0
     # via
     #   -c requirements-test.txt
     #   -c requirements.txt
