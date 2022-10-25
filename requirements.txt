@@ -228,7 +228,7 @@ multidict==5.1.0
     #   yarl
 mypy-extensions==0.4.3
     # via black
-numpy==1.20.1
+numpy==1.22.2
     # via pandas
 okta-jwt==1.3.5
     # via -r requirements.in
@@ -428,7 +428,7 @@ ujson==4.0.2
     # via -r requirements.in
 uritemplate==3.0.1
     # via google-api-python-client
-urllib3==1.26.4
+urllib3==1.26.5
     # via
     #   botocore
     #   elasticsearch
