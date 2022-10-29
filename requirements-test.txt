@@ -551,7 +551,7 @@ pickleshare==0.7.5
     #   -c requirements.txt
     #   -r requirements.txt
     #   ipython
-pillow==8.1.2
+pillow==9.0.1
     # via -r requirements-test.in
 pkgconfig==1.5.2
     # via
@@ -923,7 +923,7 @@ uritemplate==3.0.1
     #   -c requirements.txt
     #   -r requirements.txt
     #   google-api-python-client
-urllib3==1.26.4
+urllib3==1.26.5
     # via
     #   -c requirements.txt
     #   -r requirements.txt
@@ -987,3 +987,4 @@ zipp==3.4.1
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+pydantic>=1.8.2 # not directly required, pinned by Snyk to avoid a vulnerability
