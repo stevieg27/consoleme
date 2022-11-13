@@ -397,7 +397,7 @@ jmespath==0.10.0
     #   boto3
     #   botocore
     #   parliament
-joblib==1.0.1
+joblib==1.1.1
     # via
     #   -c requirements.txt
     #   -r requirements.txt
@@ -586,7 +586,7 @@ prompt-toolkit==3.0.17
     #   -r requirements.txt
     #   click-repl
     #   ipython
-protobuf==3.15.6
+protobuf==3.18.3
     # via
     #   -c requirements.txt
     #   -r requirements.txt
@@ -923,7 +923,7 @@ uritemplate==3.0.1
     #   -c requirements.txt
     #   -r requirements.txt
     #   google-api-python-client
-urllib3==1.26.4
+urllib3==1.26.5
     # via
     #   -c requirements.txt
     #   -r requirements.txt
@@ -987,3 +987,4 @@ zipp==3.4.1
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+pydantic>=1.8.2 # not directly required, pinned by Snyk to avoid a vulnerability
