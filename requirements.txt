@@ -4,7 +4,7 @@
 #
 #    pip-compile --no-emit-index-url --output-file=requirements.txt requirements.in
 #
-aiohttp==3.7.4.post0
+aiohttp==3.8.0.post0
     # via aiozipkin
 aiozipkin==1.0.0
     # via -r requirements.in
@@ -428,7 +428,7 @@ ujson==4.0.2
     # via -r requirements.in
 uritemplate==3.0.1
     # via google-api-python-client
-urllib3==1.26.4
+urllib3==1.26.5
     # via
     #   botocore
     #   elasticsearch
@@ -457,3 +457,4 @@ yarl==1.6.3
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+pydantic>=1.8.2 # not directly required, pinned by Snyk to avoid a vulnerability
