@@ -12,7 +12,7 @@
     "lodash": "^4.17.20",
     "monaco-editor": "0.21.3",
     "monaco-editor-webpack-plugin": "^2.1.0",
-    "qs": "^6.9.6",
+    "qs": "^6.9.7",
     "react": "^17.0.1",
     "react-ace": "^9.2.1",
     "react-app-rewired": "^2.1.8",
