@@ -10,7 +10,7 @@ click==7.1.2
     #   -c requirements.txt
     #   mkdocs
     #   nltk
-future==0.18.2
+future==0.18.3
     # via lunr
 jinja2==2.11.3
     # via
