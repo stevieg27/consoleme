@@ -363,7 +363,7 @@ ipython-genutils==0.2.0
     #   -c requirements.txt
     #   -r requirements.txt
     #   traitlets
-ipython==7.21.0
+ipython==8.10.0
     # via
     #   -c requirements.txt
     #   -r requirements.txt
