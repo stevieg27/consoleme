@@ -17,7 +17,7 @@ jinja2==2.11.3
     #   -c requirements-test.txt
     #   -c requirements.txt
     #   mkdocs
-joblib==1.0.1
+joblib==1.1.1
     # via
     #   -c requirements-test.txt
     #   -c requirements.txt
@@ -46,7 +46,7 @@ mkdocs==1.1.2
     # via
     #   -r requirements-docs.in
     #   mkdocs-material
-nltk==3.5
+nltk==3.6.6
     # via lunr
 pygments==2.8.1
     # via
