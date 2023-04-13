@@ -551,7 +551,7 @@ pickleshare==0.7.5
     #   -c requirements.txt
     #   -r requirements.txt
     #   ipython
-pillow==8.1.2
+pillow==9.2.0
     # via -r requirements-test.in
 pkgconfig==1.5.2
     # via
@@ -586,7 +586,7 @@ prompt-toolkit==3.0.17
     #   -r requirements.txt
     #   click-repl
     #   ipython
-protobuf==3.15.6
+protobuf==3.18.3
     # via
     #   -c requirements.txt
     #   -r requirements.txt
@@ -647,7 +647,7 @@ pygments==2.8.1
     #   -r requirements.txt
     #   ipython
     #   readme-renderer
-pyjwt==2.0.1
+pyjwt==2.4.0
     # via
     #   -c requirements.txt
     #   -r requirements.txt
@@ -743,7 +743,7 @@ pyyaml==5.4.1
     #   pre-commit
 readme-renderer==29.0
     # via -r requirements-test.in
-redis==3.5.3
+redis==4.3.6
     # via
     #   -c requirements.txt
     #   -r requirements.txt
@@ -811,7 +811,7 @@ semver==2.13.0
     #   -c requirements.txt
     #   -r requirements.txt
     #   prance
-sentry-sdk==1.0.0
+sentry-sdk==1.14.0
     # via
     #   -c requirements.txt
     #   -r requirements.txt
@@ -914,7 +914,7 @@ typing-extensions==3.7.4.3
     #   black
     #   mypy
     #   pydantic
-ujson==4.0.2
+ujson==5.4.0
     # via
     #   -c requirements.txt
     #   -r requirements.txt
@@ -923,7 +923,7 @@ uritemplate==3.0.1
     #   -c requirements.txt
     #   -r requirements.txt
     #   google-api-python-client
-urllib3==1.26.4
+urllib3==1.26.5
     # via
     #   -c requirements.txt
     #   -r requirements.txt
@@ -963,7 +963,7 @@ webencodings==0.5.1
     #   bleach
 websocket-client==0.58.0
     # via docker
-werkzeug==1.0.1
+werkzeug==2.2.3
     # via moto
 wrapt==1.12.1
     # via
@@ -987,3 +987,5 @@ zipp==3.4.1
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+pydantic>=1.8.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
