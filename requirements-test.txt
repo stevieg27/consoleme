@@ -756,7 +756,7 @@ regex==2020.11.13
     #   -c requirements.txt
     #   -r requirements.txt
     #   black
-requests==2.25.1
+requests==2.31.0
     # via
     #   -c requirements.txt
     #   -r requirements.txt
