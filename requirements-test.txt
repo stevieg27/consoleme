@@ -119,7 +119,7 @@ celery[redis]==5.0.5
     # via
     #   -c requirements.txt
     #   -r requirements.txt
-certifi==2020.12.5
+certifi==2023.7.22
     # via
     #   -c requirements.txt
     #   -r requirements.txt
