@@ -811,7 +811,7 @@ semver==2.13.0
     #   -c requirements.txt
     #   -r requirements.txt
     #   prance
-sentry-sdk==1.0.0
+sentry-sdk==1.4.1
     # via
     #   -c requirements.txt
     #   -r requirements.txt
