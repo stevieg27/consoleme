@@ -4,7 +4,7 @@
 #
 #    pip-compile --no-emit-index-url --output-file=requirements.txt requirements.in
 #
-aiohttp==3.7.4.post0
+aiohttp==3.8.5.post0
     # via aiozipkin
 aiozipkin==1.0.0
     # via -r requirements.in
@@ -54,7 +54,7 @@ cchardet==2.1.7
     # via -r requirements.in
 celery[redis]==5.0.5
     # via -r requirements.in
-certifi==2020.12.5
+certifi==2023.7.22
     # via
     #   elasticsearch
     #   requests
@@ -122,7 +122,7 @@ genson==1.2.2
     # via datamodel-code-generator
 gitdb==4.0.5
     # via gitpython
-gitpython==3.1.14
+gitpython==3.1.30
     # via -r requirements.in
 google-api-core==1.26.1
     # via
@@ -171,7 +171,7 @@ inflection==0.5.1
     # via cloudaux
 ipython-genutils==0.2.0
     # via traitlets
-ipython==7.21.0
+ipython==8.10.0
     # via -r requirements.in
 isodate==0.6.0
     # via
@@ -192,7 +192,7 @@ jmespath==0.10.0
     #   boto3
     #   botocore
     #   parliament
-joblib==1.0.1
+joblib==1.1.1
     # via cloudaux
 json-cfg==0.4.2
     # via parliament
@@ -228,7 +228,7 @@ multidict==5.1.0
     #   yarl
 mypy-extensions==0.4.3
     # via black
-numpy==1.20.1
+numpy==1.22.2
     # via pandas
 okta-jwt==1.3.5
     # via -r requirements.in
@@ -272,7 +272,7 @@ prompt-toolkit==3.0.17
     # via
     #   click-repl
     #   ipython
-protobuf==3.15.6
+protobuf==3.18.3
     # via
     #   google-api-core
     #   googleapis-common-protos
@@ -295,9 +295,9 @@ pydantic[email]==1.8.1
     # via
     #   -r requirements.in
     #   datamodel-code-generator
-pygments==2.8.1
+pygments==2.15.0
     # via ipython
-pyjwt==2.0.1
+pyjwt==2.4.0
     # via -r requirements.in
 pylint==2.7.2
     # via -r requirements.in
@@ -341,7 +341,7 @@ redis==3.5.3
     #   celery
 regex==2020.11.13
     # via black
-requests==2.25.1
+requests==2.31.0
     # via
     #   -r requirements.in
     #   google-api-core
@@ -413,7 +413,7 @@ toml==0.10.2
     #   black
     #   datamodel-code-generator
     #   pylint
-tornado==6.1
+tornado==6.3.2
     # via -r requirements.in
 traitlets==5.0.5
     # via ipython
@@ -424,11 +424,11 @@ typing-extensions==3.7.4.3
     #   aiohttp
     #   black
     #   pydantic
-ujson==4.0.2
+ujson==5.4.0
     # via -r requirements.in
 uritemplate==3.0.1
     # via google-api-python-client
-urllib3==1.26.4
+urllib3==1.26.5
     # via
     #   botocore
     #   elasticsearch
@@ -457,3 +457,5 @@ yarl==1.6.3
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+celery>=5.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pydantic>=1.8.2 # not directly required, pinned by Snyk to avoid a vulnerability
