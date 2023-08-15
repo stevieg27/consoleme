@@ -887,7 +887,7 @@ toml==0.10.2
     #   pylint
     #   pytest
     #   tox
-tornado==6.1
+tornado==6.3.3
     # via
     #   -c requirements.txt
     #   -r requirements-test.in
