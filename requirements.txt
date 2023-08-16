@@ -413,7 +413,7 @@ toml==0.10.2
     #   black
     #   datamodel-code-generator
     #   pylint
-tornado==6.1
+tornado==6.3.3
     # via -r requirements.in
 traitlets==5.0.5
     # via ipython
