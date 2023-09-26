@@ -551,7 +551,7 @@ pickleshare==0.7.5
     #   -c requirements.txt
     #   -r requirements.txt
     #   ipython
-pillow==8.1.2
+pillow==10.0.1
     # via -r requirements-test.in
 pkgconfig==1.5.2
     # via
