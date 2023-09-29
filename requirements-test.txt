@@ -987,3 +987,4 @@ zipp==3.4.1
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+pydantic>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
