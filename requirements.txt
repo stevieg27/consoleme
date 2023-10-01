@@ -457,3 +457,4 @@ yarl==1.6.3
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+pydantic>=1.10.13 # not directly required, pinned by Snyk to avoid a vulnerability
