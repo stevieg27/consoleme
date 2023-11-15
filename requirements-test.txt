@@ -4,7 +4,7 @@
 #
 #    pip-compile --no-emit-index-url --output-file=requirements-test.txt requirements-test.in requirements.txt
 #
-aiohttp==3.7.4.post0
+aiohttp==3.8.6.post0
     # via
     #   -c requirements.txt
     #   -r requirements.txt
