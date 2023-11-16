@@ -804,7 +804,7 @@ schema==0.7.4
     #   -c requirements.txt
     #   -r requirements.txt
     #   policy-sentry
-selenium==3.141.0
+selenium==4.15.1
     # via -r requirements-test.in
 semver==2.13.0
     # via
