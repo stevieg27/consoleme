@@ -100,7 +100,7 @@ defusedxml==0.6.0
     #   -r requirements.in
     #   cloudaux
     #   python3-saml
-dnspython==2.1.0
+dnspython==2.6.0rc1
     # via email-validator
 ecdsa==0.14.1
     # via python-jose
