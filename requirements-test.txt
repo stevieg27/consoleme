@@ -205,7 +205,7 @@ defusedxml==0.6.0
     #   python3-saml
 distlib==0.3.1
     # via virtualenv
-dnspython==2.1.0
+dnspython==2.6.0rc1
     # via
     #   -c requirements.txt
     #   -r requirements.txt
