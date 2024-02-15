@@ -59,7 +59,7 @@ backcall==0.2.0
     #   -c requirements.txt
     #   -r requirements.txt
     #   ipython
-bandit==1.7.0
+bandit==1.7.7
     # via -r requirements-test.in
 bcrypt==3.2.0
     # via
