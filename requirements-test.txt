@@ -982,7 +982,7 @@ yarl==1.6.3
     #   -c requirements.txt
     #   -r requirements.txt
     #   aiohttp
-zipp==3.4.1
+zipp==3.19.1
     # via moto
 
 # The following packages are considered to be unsafe in a requirements file:
