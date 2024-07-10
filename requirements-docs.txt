@@ -80,3 +80,4 @@ tornado==6.1
     #   mkdocs
 tqdm==4.59.0
     # via nltk
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
