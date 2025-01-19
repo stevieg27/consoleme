@@ -1,5 +1,5 @@
 # Dockerfile should instantiate AWS Project with configurable plugins
-FROM python:3.8
+FROM python:3.14.0a4
 MAINTAINER Curtis Castrapel
 COPY . /apps/consoleme
 WORKDIR /apps/consoleme
