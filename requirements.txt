@@ -272,7 +272,7 @@ prompt-toolkit==3.0.17
     # via
     #   click-repl
     #   ipython
-protobuf==3.15.6
+protobuf==4.25.8
     # via
     #   google-api-core
     #   googleapis-common-protos
@@ -428,7 +428,7 @@ ujson==4.0.2
     # via -r requirements.in
 uritemplate==3.0.1
     # via google-api-python-client
-urllib3==1.26.4
+urllib3==2.5.0
     # via
     #   botocore
     #   elasticsearch
