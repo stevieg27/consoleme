@@ -93,7 +93,7 @@ decorator==4.4.2
     # via
     #   ipython
     #   retry
-deepdiff==5.2.3
+deepdiff==8.6.1
     # via -r requirements.in
 defusedxml==0.6.0
     # via
