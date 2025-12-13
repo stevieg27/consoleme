@@ -887,7 +887,7 @@ toml==0.10.2
     #   pylint
     #   pytest
     #   tox
-tornado==6.1
+tornado==6.5.3
     # via
     #   -c requirements.txt
     #   -r requirements-test.in
@@ -923,7 +923,7 @@ uritemplate==3.0.1
     #   -c requirements.txt
     #   -r requirements.txt
     #   google-api-python-client
-urllib3==1.26.4
+urllib3==2.6.0
     # via
     #   -c requirements.txt
     #   -r requirements.txt
