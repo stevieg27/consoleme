@@ -239,7 +239,7 @@ email-validator==1.1.2
     #   pydantic
 execnet==1.8.0
     # via pytest-xdist
-filelock==3.0.12
+filelock==3.20.1
     # via
     #   tox
     #   virtualenv
