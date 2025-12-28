@@ -218,7 +218,7 @@ lxml==4.6.2
     #   xmlsec
 markupsafe==1.1.1
     # via jinja2
-marshmallow==3.10.0
+marshmallow==3.26.2
     # via -r requirements.in
 mccabe==0.6.1
     # via pylint
