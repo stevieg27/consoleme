@@ -183,7 +183,7 @@ coverage==5.5
     #   pytest-cov
 cryptography==3.4.6
     # via moto
-datamodel-code-generator==0.9.2
+datamodel-code-generator==0.31.2
     # via
     #   -c requirements.txt
     #   -r requirements.txt
